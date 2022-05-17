@@ -1,5 +1,8 @@
-# Visual Studio Code directory
+# Visual Studio Code files
 .vscode/
+
+# Visual Studio files
+.vs/
 
 # testing library files
 test/
