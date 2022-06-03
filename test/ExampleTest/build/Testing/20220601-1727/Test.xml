@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20220601-1727-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.16.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="viktor-redmi-magik-macbook"
+	OSRelease="5.13.0-44-generic"
+	OSVersion="#49~20.04.1-Ubuntu SMP Wed May 18 18:44:28 UTC 2022"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="96"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="6"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15366"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2995.69"
+	>
+	<Testing>
+		<StartDateTime>Jun 01 20:27 MSK</StartDateTime>
+		<StartTestTime>1654104478</StartTestTime>
+		<TestList>
+			<Test>./test_dir/TestingAlgo</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>TestingAlgo</Name>
+			<Path>./test_dir</Path>
+			<FullName>./test_dir/TestingAlgo</FullName>
+			<FullCommandLine>/home/viktor/repos/VSTL/test/ExampleTest/build/test_dir/Test1</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00290839</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/viktor/repos/VSTL/test/ExampleTest/build/test_dir/Test1</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkU1rwkAQhu/7K+ZYoWYVegr0IBhLQUoxqRcRWZMxLt0vdidq/33zYSUWSjOnd5mHmXnfXVXGSFOCFtI8jODgrQZ+tBr5SX6S9dyjs4Gv02zJCQPx5CK0U5g1mo7SFzsnPH3x0tpSYYv0ZPA5Lxu1axZEec42z7fawuq6fQoN022/6lBJwohtxrfawouye6G6PpqT9NZoNDWLNK7cL7g/s3c028Dq4w3a2vYb0Ry1NYG8oA4cHkPjr5C+FdMody5+imEhpKo8srVQFYI9xHAQKiADmOVUCfXzTi4Oc8IiBvIV1ufBYva6TOb/nAcPE9BhNMhzxwJZEmrEhmVKKPy4sGdz/2N//RR4YaL7PbWT91madk4mLRuie3/dhEdQMtQJwB6VPceDI2CsHnAlsyTN2Dcj4un4====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Jun 01 20:27 MSK</EndDateTime>
+		<EndTestTime>1654104478</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

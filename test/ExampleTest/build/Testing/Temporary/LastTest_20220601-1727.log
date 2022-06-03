@@ -1,0 +1,37 @@
+Start testing: Jun 01 20:27 MSK
+----------------------------------------------------------
+1/1 Testing: TestingAlgo
+1/1 Test: TestingAlgo
+Command: "/home/viktor/repos/VSTL/test/ExampleTest/build/test_dir/Test1"
+Directory: /home/viktor/repos/VSTL/test/ExampleTest/build/test_dir
+"TestingAlgo" start time: Jun 01 20:27 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/viktor/repos/VSTL/test/ExampleTest/third_party/googletest/googletest/src/gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ExampleTest
+[ RUN      ] ExampleTest.DemonstrateTest
+/home/viktor/repos/VSTL/test/ExampleTest/test_dir/test1.cpp:4: Failure
+Value of: false
+  Actual: false
+Expected: true
+[  FAILED  ] ExampleTest.DemonstrateTest (0 ms)
+[----------] 1 test from ExampleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] ExampleTest.DemonstrateTest
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"TestingAlgo" end time: Jun 01 20:27 MSK
+"TestingAlgo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 01 20:27 MSK

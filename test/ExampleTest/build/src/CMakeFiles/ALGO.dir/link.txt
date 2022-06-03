@@ -1,0 +1,2 @@
+/usr/bin/ar qc libALGO.a  CMakeFiles/ALGO.dir/example.cpp.o
+/usr/bin/ranlib libALGO.a
